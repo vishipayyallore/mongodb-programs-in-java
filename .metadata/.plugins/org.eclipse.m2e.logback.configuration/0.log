@@ -1,0 +1,2 @@
+2015-09-12 21:11:53,721 [main] WARN  org.eclipse.equinox.logger - Both 'org.eclipse.bpmn2' and 'org.eclipse.papyrus.infra.core.sasheditor.di' register an extension parser for 'di' - org.eclipse.emf.ecore, id: 282
+2015-09-12 21:11:53,721 [main] WARN  org.eclipse.equinox.logger - Both 'org.eclipse.bpmn2' and 'org.eclipse.papyrus.infra.core.sasheditor.di' register an extension parser for 'di' - org.eclipse.emf.ecore, id: 282 - org.eclipse.m2e.logback.appender, id: 553
