@@ -15,7 +15,7 @@ public class Day1Main {
 		
 		MongoDatabase db = mongoClient.getDatabase("test");
 
-		System.out.println(db.getReadPreference().toString());
+		System.out.println("DB Preferences: " + db.getReadPreference().toString());
 		
 		MongoCollection<Document> _documents = db.getCollection("restaurants");
 		

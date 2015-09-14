@@ -1,0 +1,26 @@
+package com.day1.main;
+
+/**
+ * 
+ * @author Viswanatha
+ *
+ */
+
+import org.bson.Document;
+import com.mongodb.Block;
+import com.mongodb.client.FindIterable;
+import static com.mongodb.client.model.Filters.*;
+import static com.mongodb.client.model.Sorts.ascending;
+import static java.util.Arrays.asList;
+
+public class Day2Main {
+
+	public static void main(String[] args) {
+
+		
+		FindIterable<Document> iterable = db.getCollection("restaurants").find();
+
+
+	}
+
+}
