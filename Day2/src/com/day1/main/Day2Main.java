@@ -1,5 +1,7 @@
 package com.day1.main;
 
+import java.util.List;
+
 /**
  * 
  * @author Viswanatha
@@ -12,17 +14,13 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoDatabase;
 
-import static com.mongodb.client.model.Filters.*;
-import static com.mongodb.client.model.Sorts.ascending;
-import static java.util.Arrays.asList;
-
 public class Day2Main {
 
 	public static void main(String[] args) {
 
 		MongoClient mongoClient = new MongoClient();
-		
-		MongoDatabase db = mongoClient.getDatabase("test");
+				
+		MongoDatabase db = mongoClient.getDatabase("dailywork");
 		
 		FindIterable<Document> iterable = db.getCollection("restaurants").find();
 
