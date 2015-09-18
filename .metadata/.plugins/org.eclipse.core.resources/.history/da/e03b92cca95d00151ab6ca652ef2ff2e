@@ -1,0 +1,20 @@
+package com.utilities.datastore.communications;
+
+import com.mongodb.MongoClient;
+import com.utilities.datastore.interfaces.IManager;
+
+public class MongoDbConnectionManager implements IManager {
+
+	@Override
+	public MongoClient getConnection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void closeConnection() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

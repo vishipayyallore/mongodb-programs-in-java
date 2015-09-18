@@ -1,0 +1,15 @@
+package com.utilities.datastore.communications;
+
+import com.utilities.datastore.connection.*;
+
+/**
+ * 
+ * @author Viswanatha
+ *
+ */
+
+public class MongoDbCommunicator {
+
+	MongoDbConnectionManager _mongoDbManager;
+	
+}

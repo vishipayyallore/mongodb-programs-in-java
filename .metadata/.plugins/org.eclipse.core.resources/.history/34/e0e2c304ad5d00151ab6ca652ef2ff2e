@@ -1,0 +1,19 @@
+package com.utilities.datastore.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MongoDbConnectionTests {
+
+	@Test
+	public void testGetConnection() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCloseConnection() {
+		fail("Not yet implemented");
+	}
+
+}

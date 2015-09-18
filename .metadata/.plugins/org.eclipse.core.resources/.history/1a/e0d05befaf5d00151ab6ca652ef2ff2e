@@ -1,0 +1,25 @@
+package com.utilities.datastore.communications;
+
+import com.utilities.datastore.connection.*;
+
+/**
+ * 
+ * @author Viswanatha
+ *
+ */
+
+public class MongoDbCommunicator {
+
+	MongoDbConnectionManager _mongoDbManager;
+	
+	public MongoDbCommunicator(){
+		_mongoDbManager = new MongoDbConnectionManager();
+	}
+	
+	
+	public MongoDatabase getDatabase(String databaseName){
+		return _mongoDbManager
+				.getConnection()
+				.getDatabase(databaseName);
+	}
+}

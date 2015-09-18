@@ -1,0 +1,11 @@
+package com.utilities.datastore.communications;
+
+/**
+ * 
+ * @author Viswanatha
+ *
+ */
+
+public class MongoDbCommunicator {
+
+}

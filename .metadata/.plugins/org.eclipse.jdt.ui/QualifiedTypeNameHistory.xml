@@ -3,4 +3,10 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.mongodb.DB"/>
 <fullyQualifiedTypeName name="com.mongodb.DBCollection"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.utilities.datastore.communications.MongoDbConnectionManager"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="com.utilities.datastore.connection.MongoDbConnectionManager"/>
+<fullyQualifiedTypeName name="com.utilities.datastore.communications.MongoDbCommunicator"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
 </qualifiedTypeNameHistroy>

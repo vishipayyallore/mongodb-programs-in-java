@@ -1,0 +1,30 @@
+package com.utilities.datastore.tests;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import com.mongodb.MongoClient;
+import com.utilities.datastore.connection.*;
+
+public class MongoDbConnectionTests {
+
+	MongoDbConnectionManager _connectionManager = new MongoDbConnectionManager();
+	
+	@Test
+	public void testGetConnection() {
+		MongoClient mongoClient = _connectionManager.getConnection();
+		assertNotNull("Object Created", mongoClient);
+	}
+
+	@Test
+	public void testsecondGetConnection() {
+		MongoClient mongoClient = _connectionManager.getConnection();
+		assertNotNull("Object Created", mongoClient);
+	}
+	
+	@Test
+	public void testCloseConnection() {
+		_connectionManager.closeConnection();
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.utilities.datastore.communications;
+
+import com.mongodb.MongoClient;
+import com.utilities.datastore.interfaces.IManager;
+
+/**
+ * 
+ * @author Viswanatha
+ *
+ */
+
+public class MongoDbConnectionManager implements IManager {
+
+	//Variables.
+	MongoClient _mongoClient;
+	
+	@Override
+	public MongoClient getConnection() {
+		if(_mongoClient == null)
+		{
+			
+		}
+		return null;
+	}
+
+	@Override
+	public void closeConnection() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

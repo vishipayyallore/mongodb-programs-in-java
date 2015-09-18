@@ -1,0 +1,13 @@
+package com.utilities.datastore.interfaces;
+
+/**
+ * 
+ * @author Viswanatha
+ *
+ */
+
+public interface IManager {
+
+	MongoClient getConnection();
+	void closeConnection();
+}

@@ -14,12 +14,14 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="MongoDbUtilites"/>
 			<item value="SimpleWebApi"/>
 			<item value="Day2"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="MongoDbUtilites"/>
 			<item value="SimpleWebApi"/>
 			<item value="Day2"/>
 		</list>

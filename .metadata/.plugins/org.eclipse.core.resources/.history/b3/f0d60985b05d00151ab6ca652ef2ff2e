@@ -1,0 +1,15 @@
+package com.utilities.datastore.tests;
+
+import org.junit.Test;
+
+import com.utilities.datastore.communications.MongoDbCommunicator;
+
+public class MongoDbCommunicatorTests {
+		
+	MongoDbCommunicator _communicator;
+
+	@Test
+	public void testGet_test_Database() {
+	}
+
+}

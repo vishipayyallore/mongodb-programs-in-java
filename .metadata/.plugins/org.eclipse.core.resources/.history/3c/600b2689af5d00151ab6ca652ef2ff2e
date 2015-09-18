@@ -1,0 +1,5 @@
+package com.utilities.datastore.communications;
+
+public class MongoDbCommunicator {
+
+}
