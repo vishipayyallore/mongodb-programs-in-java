@@ -1,0 +1,17 @@
+package com.day2.classes;
+
+/**
+ * 
+ * @author Viswanatha
+ *
+ */
+
+public class Employee {
+	
+	public Employee(){
+	}
+	
+	public String Id;
+	public String Name;
+	public String Designation;
+}

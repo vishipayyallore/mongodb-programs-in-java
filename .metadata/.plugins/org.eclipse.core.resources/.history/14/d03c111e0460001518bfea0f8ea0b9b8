@@ -1,0 +1,10 @@
+package com.day2.classes;
+
+
+public class Employee {
+
+	public String Id;
+	public String Name;
+	public String Designation;
+	
+}

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.mongodb.DB"/>
 <fullyQualifiedTypeName name="com.mongodb.DBCollection"/>
 <fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
@@ -9,4 +8,11 @@
 <fullyQualifiedTypeName name="com.utilities.datastore.connection.MongoDbConnectionManager"/>
 <fullyQualifiedTypeName name="com.utilities.datastore.communications.MongoDbCommunicator"/>
 <fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoCollection"/>
+<fullyQualifiedTypeName name="com.day2.classes.Employee"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.bson.codecs.configuration.CodecRegistries"/>
+<fullyQualifiedTypeName name="org.bson.codecs.configuration.CodecRegistry"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClientOptions"/>
+<fullyQualifiedTypeName name="org.bson.Document"/>
 </qualifiedTypeNameHistroy>

@@ -5,7 +5,18 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2015-09-17T11:49:00Z</updated>
+  <updated>2015-09-20T19:40:53Z</updated>
+  <entry>
+    <title>Spring Boot 1.2.6 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/09/20/spring-boot-1-2-6-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2015-09-20:2238</id>
+    <updated>2015-09-20T19:40:53Z</updated>
+    <content type="html">&lt;p&gt;Spring Boot 1.2.6 has been released and is available now from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;This maintenance release includes a &lt;a href="https://github.com/spring-projects/spring-boot/issues?q=milestone%3A1.2.6"&gt;number of fixes&lt;/a&gt; and 3rd party dependency updates. &lt;/p&gt;&lt;p&gt;Thanks a lot to &lt;a href="https://twitter.com/jbaruch"&gt;@jbaruch&lt;/a&gt; from JFrog for presenting with me at this years SpringOne2GX and persuading me to make this release live on stage!&lt;/p&gt;&lt;p&gt;We recommend that all Spring Boot users upgrade.&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Single-page web apps with Vaadin Spring 1.0</title>
     <link rel="alternate" href="https://spring.io/blog/2015/09/17/single-page-web-apps-with-vaadin-spring-1-0" />
@@ -2279,28 +2290,5 @@ Whenever you work with Spring Data REST, the &lt;strong&gt;self&lt;/strong&gt; l
   &lt;li&gt;Neo4j have just announced &lt;a href="http://neo4j.com/blog/spring-data-neo4j-4-0-0-rc2-release/"&gt;Spring Data Neo4j 4.0.0.RC2 is available&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Make sure you didn&amp;rsquo;t &lt;a href="https://www.youtube.com/watch?v=A1UbUNcveik&amp;feature=youtu.be"&gt;miss the latest installment of &lt;em&gt;Cloud Foundry After Dark&lt;/em&gt;&lt;/a&gt;!&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring for Apache Hadoop 2.3 Milestone 2 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/08/20/spring-for-apache-hadoop-2-3-milestone-2-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Thomas Risberg</name>
-    </author>
-    <id>tag:spring.io,2015-08-20:2216</id>
-    <updated>2015-08-20T14:03:00Z</updated>
-    <content type="html">&lt;p&gt;We are pleased to announce the Spring for Apache Hadoop 2.3 M2 milestone release.&lt;/p&gt;&lt;p&gt;The most important enhancements in this release: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;New batch tasklets: Support for running a simple Spark app [&lt;a href="https://jira.spring.io/browse/SHDP-397"&gt;SHDP-397&lt;/a&gt;] and for running a simple Sqoop2 Job [&lt;a href="https://jira.spring.io/browse/SHDP-506"&gt;SHDP-506&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Better boot support: Add jobHistoryAddress to SpringHadoopProperties for Boot configuration [&lt;a href="https://jira.spring.io/browse/SHDP-517"&gt;SHDP-517&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;YARN: Support dots in yarn container group names [&lt;a href="https://jira.spring.io/browse/SHDP-515"&gt;SHDP-515&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;See the release &lt;a href="http://docs.spring.io/spring-hadoop/docs/2.3.0.M2/changelog.txt"&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;&lt;p&gt;The new support for running a Spark job on YARN via a Spring Batch tasklet opens possibilities for integrating Spark tasks in a larger Spring Batch flow We will show a simple example of this at the upcoming &lt;a href="http://springone2gx.com/"&gt;SpringOne 2GX&lt;/a&gt; conference during our &lt;a href="https://2015.event.springone2gx.com/schedule/sessions/hadoop_workflows_and_distributed_yarn_apps_using_spring_technologies.html"&gt;&amp;ldquo;Hadoop Workflows and Distributed YARN Apps using Spring technologies&amp;rdquo;&lt;/a&gt; presentation. In this presentation we&amp;rsquo;ll also explore how Hadoop based apps can take advantage of a cloud-native development approach.&lt;/p&gt;&lt;p&gt;We continue to provide version specific artifacts with their respective transitive dependencies in the Spring IO milestone repository:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;2.3.0.M2 (default - Apache Hadoop stable 2.7.1)&lt;/li&gt;
-  &lt;li&gt;2.3.0.M2-hadoop26 (Apache Hadoop 2.6.0)&lt;/li&gt;
-  &lt;li&gt;2.3.0.M2-phd30 (Pivotal HD 3.0)&lt;/li&gt;
-  &lt;li&gt;2.3.0.M2-cdh5 (Cloudera CDH 5.4)&lt;/li&gt;
-  &lt;li&gt;2.3.0.M2-hdp23 (Hortonworks HDP 2.3)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Please provide feedback so we can prioritize the work on new features scheduled for 2.3 (see previous &lt;a href="https://spring.io/blog/2015/05/21/spring-for-apache-hadoop-2-2-rc1-released"&gt;blog post&lt;/a&gt; for a list) and any additional feature requests. You can use JIRA issues or GitHub issues (see project page for links).&lt;/p&gt;&lt;p&gt;The project page is at - &lt;a href="http://projects.spring.io/spring-hadoop/"&gt;http://projects.spring.io/spring-hadoop/&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
